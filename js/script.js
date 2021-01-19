@@ -23,6 +23,7 @@ const cat = {
 cat.complain();
 
 //Question 2
+
 const heading = document.querySelector("h3");
 heading.innerHTML = "Updated heading";
 
@@ -31,6 +32,7 @@ heading.innerHTML = "Updated heading";
 heading.style.fontSize = "2em";
 
 //Question 4
+
 heading.classList.add("subheading");
 
 //Question 5
@@ -42,8 +44,10 @@ for (let i = 0; i < paragraphs.length; i++) {
 }
 
 //Question 6
+
 const resultsContainer = document.querySelector(".results");
-resultsContainer.innerHTML = `<p style="background-color: yellow"> New paragraph</p>`;
+resultsContainer.innerHTML = `<p> New paragraph</p>`;
+resultsContainer.style.backgroundColor = "yellow";
 
 //Question 7
 
