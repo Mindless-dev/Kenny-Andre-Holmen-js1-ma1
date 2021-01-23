@@ -51,13 +51,13 @@ resultsContainer.style.backgroundColor = "yellow";
 
 //Question 7
 
-function listMaker(list) {
+function objectName(list) {
   for (let i = 0; i < cats.length; i++) {
     console.log(cats[i].name);
   }
 }
 
-listMaker(cats);
+objectName(cats);
 
 //Question 8
 
